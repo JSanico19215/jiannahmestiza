@@ -1,0 +1,43 @@
+body{
+	background-color: lightblue;
+  background-image: url("JEANAH.jpg");
+  background-repeat: no-repeat;
+    background-position: center;
+	background-size: cover;
+	height: 100vh;
+	/* overflow:hidden; */
+	padding: 0;
+	margin: 0;
+}
+h1 {
+	  color: yellow;
+	font-family: "Copperplate", Fantasy;
+	font-size: 50px;
+	font-family: "Lucida Handwriting", Cursive;
+}
+
+.gallery_button{
+	font-size: 50px;
+	color: black;
+	font-family: 'Merriweather', serif;
+}
+.jiannah_files{
+	display: flex;
+	justify-content: space-evenly;
+	margin-left: 50px;
+
+}
+.jiannah_files div{
+	display: flex;
+	flex-direction: column;
+	margin-right: 50px; 
+}
+h2{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin-right: 50px;
+}
+.comments{
+	font-size: 30px;
+}
